@@ -1,0 +1,54 @@
+{
+  "UserInfo": {
+    "_sequence": [
+      "defaultPersonaIdx",
+      "personas",
+      "user"
+    ],
+    "personas": {
+      "ProfileData": {
+        "_sequence": [
+          "Boost",
+          "Cash",
+          "IconIndex",
+          "Level",
+          "Name",
+          "PercentToLevel",
+          "PersonaId",
+          "Rating",
+          "Rep",
+          "RepAtCurrentLevel",
+          "Score"
+        ],
+        "Name": "NILS",
+        "RepAtCurrentLevel": "0",
+        "Cash": 5000000.0,
+        "PercentToLevel": "0.0",
+        "IconIndex": "1",
+        "PersonaId": "104",
+        "Score": "0",
+        "Rating": "0.0",
+        "Rep": "0.0",
+        "Level": "60",
+        "Boost": 0.0
+      }
+    },
+    "user": {
+      "_sequence": [
+        "fullGameAccess",
+        "isComplete",
+        "remoteUserId",
+        "securityToken",
+        "subscribeMsg",
+        "userId"
+      ],
+      "subscribeMsg": "false",
+      "remoteUserId": "0",
+      "userId": "6",
+      "securityToken": "f8bd13d0-9c25-4713-9e3b-a2c70b805a13",
+      "fullGameAccess": false,
+      "isComplete": "false"
+    },
+    "defaultPersonaIdx": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "SystemInfo": {
+    "_sequence": [
+      "ClientVersionCheck",
+      "EntitlementsToDownload",
+      "ForcePermanentSession",
+      "PersonaCacheTimeout",
+      "Time"
+    ],
+    "ClientVersionCheck": true,
+    "EntitlementsToDownload": true,
+    "ForcePermanentSession": true,
+    "PersonaCacheTimeout": 900,
+    "Time": "2022-12-11T07:02:29.365-04:00"
+  }
+}

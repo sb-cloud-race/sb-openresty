@@ -1,0 +1,28 @@
+{
+  "ProfileData": {
+    "_sequence": [
+      "Boost",
+      "Cash",
+      "IconIndex",
+      "Level",
+      "Name",
+      "PercentToLevel",
+      "PersonaId",
+      "Rating",
+      "Rep",
+      "RepAtCurrentLevel",
+      "Score"
+    ],
+    "Boost": 0,
+    "Cash": 5000000.0,
+    "IconIndex": 0,
+    "Level": 60,
+    "Name": "ARROY",
+    "PercentToLevel": 0.0,
+    "PersonaId": 106,
+    "Rating": 0.0,
+    "Rep": 0.0,
+    "RepAtCurrentLevel": 0,
+    "Score": 0
+  }
+}

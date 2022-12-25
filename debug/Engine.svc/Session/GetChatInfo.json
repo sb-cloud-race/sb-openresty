@@ -1,0 +1,5 @@
+{
+  "chatServer": {
+    "port": 5222
+  }
+}

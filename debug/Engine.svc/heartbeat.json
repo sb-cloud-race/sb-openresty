@@ -1,0 +1,10 @@
+{
+  "HeartBeat": {
+    "_sequence": [
+      "MetagameFlags",
+      "enabledBitField"
+    ],
+    "MetagameFlags": 2,
+    "enabledBitField": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "RegionInfo": {
+    "_sequence": [
+      "CountdownProposalInMilliseconds",
+      "DirectConnectTimeoutInMilliseconds",
+      "DropOutTimeInMilliseconds",
+      "EventLoadTimeoutInMilliseconds",
+      "HeartbeatIntervalInMilliseconds",
+      "UdpRelayBandwidthInBps",
+      "UdpRelayTimeoutInMilliseconds"
+    ],
+    "CountdownProposalInMilliseconds": 3000,
+    "DirectConnectTimeoutInMilliseconds": 1000,
+    "DropOutTimeInMilliseconds": 15000,
+    "EventLoadTimeoutInMilliseconds": 30000,
+    "HeartbeatIntervalInMilliseconds": 1000,
+    "UdpRelayBandwidthInBps": 9600,
+    "UdpRelayTimeoutInMilliseconds": 60000
+  }
+}

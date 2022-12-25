@@ -1,0 +1,24 @@
+{
+  "User_Settings": {
+    "_sequence": [
+      "CarCacheAgeLimit",
+      "IsRaceNowEnabled",
+      "MaxCarCacheSize",
+      "MinRaceNowLevel",
+      "VoipAvailable",
+      "firstTimeLogin",
+      "maxLevel",
+      "starterPackApplied",
+      "userId"
+    ],
+    "CarCacheAgeLimit": 600,
+    "IsRaceNowEnabled": true,
+    "MaxCarCacheSize": 250,
+    "MinRaceNowLevel": 2,
+    "VoipAvailable": false,
+    "firstTimeLogin": false,
+    "maxLevel": 60,
+    "starterPackApplied": false,
+    "userId": 6
+  }
+}

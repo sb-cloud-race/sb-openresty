@@ -1,0 +1,16 @@
+{
+  "FraudConfig": {
+    "_sequence": [
+      "enabledBitField",
+      "gameFileFreq",
+      "moduleFreq",
+      "startUpFreq",
+      "userID"
+    ],
+    "enabledBitField": 12,
+    "gameFileFreq": 1000000,
+    "moduleFreq": 360000,
+    "startUpFreq": 1000000,
+    "userID": 6
+  }
+}

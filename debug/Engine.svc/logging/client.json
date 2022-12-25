@@ -1,0 +1,8 @@
+{
+  "ClientConfigTrans": {
+    "_attr": {
+      "xsi:schemaLocation": "http://schemas.datacontract.org/2004/07/Victory.DataLayer.Serialization",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    }
+  }
+}
