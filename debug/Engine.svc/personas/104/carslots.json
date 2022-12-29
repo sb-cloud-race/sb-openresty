@@ -1,0 +1,54 @@
+{
+  "CarSlotInfoTrans": {
+    "CarsOwnedByPersona": {
+      "OwnedCarTrans": {
+        "CustomCar": {
+          "BaseCar": -951615808,
+          "CarClassHash": 872416321,
+          "Id": 8,
+          "IsPreset": true,
+          "Level": 0,
+          "Name": "silvias15",
+          "Paints": {},
+          "PerformanceParts": {},
+          "PhysicsProfileHash": -591225061,
+          "Rating": 212,
+          "ResalePrice": 75000.0,
+          "RideHeightDrop": 0,
+          "SkillModParts": {},
+          "SkillModSlotCount": 6,
+          "Version": 0,
+          "Vinyls": {},
+          "VisualParts": {}
+        },
+        "Durability": 100,
+        "Heat": 1.0,
+        "Id": 8,
+        "OwnershipType": "CustomizedCar"
+      }
+    },
+    "DefaultOwnedCarIndex": 0,
+    "ObtainableSlots": {
+      "ProductTrans": {
+        "BundleItems": {},
+        "CategoryId": {},
+        "Currency": "_NS",
+        "Description": "New car slot !!",
+        "DurationMinute": 0,
+        "Hash": -1143680669,
+        "Icon": "128_cash",
+        "Level": 70,
+        "LongDescription": "New car slot !",
+        "Price": 100.0,
+        "Priority": 0,
+        "ProductId": "SRV-GARAGESLOT",
+        "SecondaryIcon": {},
+        "UseCount": 1,
+        "VisualStyle": {},
+        "WebIcon": {},
+        "WebLocation": {}
+      }
+    },
+    "OwnedCarSlotsCount": 30
+  }
+}
