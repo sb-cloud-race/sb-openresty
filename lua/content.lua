@@ -30,7 +30,7 @@ if (args) then
 end
 
 local res = ngx.location.capture(
-        ngx.var.app_path .. ngx.var.path .. '.json',
+        ngx.var.app_path .. ngx.var.path,
         capture_conf)
 
 local data = res.body
