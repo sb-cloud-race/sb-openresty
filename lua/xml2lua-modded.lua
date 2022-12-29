@@ -198,31 +198,17 @@ function xml2lua.addTagValueAttr(xmltb, tagName, tagValue, attrTable, level)
 end
 
 function xml2lua.startTag(xmltb, tagName, attrTable, level)
-    local attrStr = attrToXml(attrTable)
-    local spaces = xml2lua.getSpaces(level)
-    table.insert(xmltb, spaces .. '<' .. tagName .. attrStr .. '>')
+    if(type(tagName) ~= "number") then
+        local attrStr = attrToXml(attrTable)
+        local spaces = xml2lua.getSpaces(level)
+        table.insert(xmltb, spaces .. '<' .. tagName .. attrStr .. '>')
+    end
 end
 
 function xml2lua.endTag(xmltb, tagName, level)
-    local spaces = xml2lua.getSpaces(level)
-    table.insert(xmltb, spaces .. '</' .. tagName .. '>')
-end
-
-function xml2lua.parseTableToXml(xmltb, tb, arrayTagName, level)
-    for k, v in pairs(tb) do
-        if (type(v) == 'table') then
-            --tbl_debug.print_table(v)
-            xml2lua.startTag(xmltb, k, v._attr, level)
-            v._attr = nil
-            xml2lua.routeSequence(xmltb, v, k, level +1)
-            xml2lua.endTag(xmltb, k, level)
-        else
-            if (type(k) == 'number') then
-                xml2lua.addTagValueAttr(xmltb, arrayTagName, v, nil, level)
-            else
-                xml2lua.addTagValueAttr(xmltb, k, v, nil, level)
-            end
-        end
+    if(type(tagName) ~= "number") then
+        local spaces = xml2lua.getSpaces(level)
+        table.insert(xmltb, spaces .. '</' .. tagName .. '>')
     end
 end
 
